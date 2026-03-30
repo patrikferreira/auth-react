@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation"
 import { useEffect } from "react";
 import { IoIosLogOut } from "react-icons/io";
 
-export default function page() {
+export default function Page() {
     const router = useRouter();
 
     useEffect(() => {
